@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/donor-verification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.equipment-certification]
+path = 'contracts/equipment-certification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
